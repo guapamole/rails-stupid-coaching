@@ -1,0 +1,18 @@
+<div class="content-block">
+  <br>
+    <h1>Stupid Coaching</h1>
+    <br>
+    <div class="content-with-border1">
+        <p><%= params[:question] %></p>
+        <cite>- You</cite>
+    </div>
+    <br>
+    <div class="content-with-border2">
+        <p><strong><%= @answer %></strong></p>
+        <cite>- Your Coach</cite>
+    </div>
+    <br>
+    <div class="link-offset-2 link-underline link-underline-opacity-0">
+    <%= link_to "Ask a new question", ask_path, :class => "link" %>
+    </div>
+</div>
